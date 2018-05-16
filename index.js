@@ -38,7 +38,7 @@ class rmb extends EventEmitter
         });
 
         this.redisSub.on("subscribe", (channel, count) => {
-            if (count == this.channels.length + 1)
+            if (count == this.channels.length)
             {
                 this.connected = true;
                 this.emit("connected");
