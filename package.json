@@ -1,0 +1,32 @@
+{
+  "name": "redismessagebroker",
+  "version": "1.0.0",
+  "description": "Simple Request/Reply pattern over redis Publish/Subscribe",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/threadpoolsafe/RedisMessageBroker.git"
+  },
+  "keywords": [
+    "redis",
+    "messaging",
+    "publish",
+    "subscribe",
+    "broker",
+    "request",
+    "reply"
+  ],
+  "author": "threadpoolsafe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/threadpoolsafe/RedisMessageBroker/issues"
+  },
+  "homepage": "https://github.com/threadpoolsafe/RedisMessageBroker#readme",
+  "dependencies": {
+    "redis": "^2.8.0",
+    "uuid": "^3.2.1"
+  }
+}
